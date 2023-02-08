@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.5)
+# defines the minimum version of CMake required to build this project
+
+project(battleship)
+# project() definition defines the project name.
+
+add_subdirectory(src)
+# add the subdirectory for the sub-projects
+
+# todo add binary path for file output
+
+
+#after file setup
+#mkdir build
+#cd build
+#cmake ..
+#make
